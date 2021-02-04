@@ -10,18 +10,18 @@ import SwiftUI
 struct Pantalla4View: View {
     var body: some View {
         ZStack{
-        Image("PaisajeDeMontañas1")
-         
+            Image("PaisajeDeMontañas1")
+            
             VStack{
-                Text("WELCOME")
+                Text("WELCOME!!!")
                     .foregroundColor(Color.white)
                     .font(.largeTitle)
                 Spacer()
                 Image("Familia")
                     .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 210.0, height: 250.0, alignment: .center)
-                        .clipShape(Circle())
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 210.0, height: 250.0, alignment: .center)
+                    .clipShape(Circle())
                 Spacer()
                 
                 Button(action: {
@@ -39,10 +39,10 @@ struct Pantalla4View: View {
                             .stroke(lineWidth: 2.0))
                 }
                 Spacer()
-                    }
-                }
             }
         }
+    }
+}
 
 struct Pantalla4View_Previews: PreviewProvider {
     static var previews: some View {
