@@ -10,7 +10,7 @@ import SwiftUI
 struct Pantalla4View: View {
     var body: some View {
         ZStack{
-        Image("PaisajeDeMontañas")
+        Image("PaisajeDeMontañas1")
          
             VStack{
                 Text("WELCOME")
