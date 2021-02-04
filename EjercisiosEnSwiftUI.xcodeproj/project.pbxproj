@@ -17,6 +17,7 @@
 		FB5D59A525C45A2D0027CB4F /* EjercisiosEnSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D59A425C45A2D0027CB4F /* EjercisiosEnSwiftUIUITests.swift */; };
 		FB5D5B0825CB53980027CB4F /* Pantalla1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B0725CB53980027CB4F /* Pantalla1View.swift */; };
 		FB5D5B0D25CB53CD0027CB4F /* Pantalla2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B0C25CB53CD0027CB4F /* Pantalla2View.swift */; };
+		FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B2025CC4B2C0027CB4F /* Pantalla3View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FB5D59A625C45A2D0027CB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5D5B0725CB53980027CB4F /* Pantalla1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla1View.swift; sourceTree = "<group>"; };
 		FB5D5B0C25CB53CD0027CB4F /* Pantalla2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla2View.swift; sourceTree = "<group>"; };
+		FB5D5B2025CC4B2C0027CB4F /* Pantalla3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla3View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FB5D5B1725CC4AB20027CB4F /* Ejercicio2 */,
 				FB5D5AFE25CB529B0027CB4F /* Ejercicio1 */,
 				FB5D598225C45A230027CB4F /* EjercisiosEnSwiftUIApp.swift */,
 				FB5D598425C45A230027CB4F /* ContentView.swift */,
@@ -148,6 +151,14 @@
 				FB5D5B0C25CB53CD0027CB4F /* Pantalla2View.swift */,
 			);
 			path = Ejercicio1;
+			sourceTree = "<group>";
+		};
+		FB5D5B1725CC4AB20027CB4F /* Ejercicio2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D5B2025CC4B2C0027CB4F /* Pantalla3View.swift */,
+			);
+			path = Ejercicio2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 				FB5D5B0D25CB53CD0027CB4F /* Pantalla2View.swift in Sources */,
 				FB5D5B0825CB53980027CB4F /* Pantalla1View.swift in Sources */,
 				FB5D598F25C45A2C0027CB4F /* EjercisiosEnSwiftUI.xcdatamodeld in Sources */,
+				FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */,
 				FB5D598C25C45A2C0027CB4F /* Persistence.swift in Sources */,
 				FB5D598525C45A230027CB4F /* ContentView.swift in Sources */,
 				FB5D598325C45A230027CB4F /* EjercisiosEnSwiftUIApp.swift in Sources */,
