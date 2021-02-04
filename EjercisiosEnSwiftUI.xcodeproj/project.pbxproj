@@ -103,7 +103,7 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				FB5D5AFE25CB529B0027CB4F /* New Group */,
+				FB5D5AFE25CB529B0027CB4F /* Ejercicio1 */,
 				FB5D598225C45A230027CB4F /* EjercisiosEnSwiftUIApp.swift */,
 				FB5D598425C45A230027CB4F /* ContentView.swift */,
 				FB5D598625C45A2C0027CB4F /* Assets.xcassets */,
@@ -141,13 +141,13 @@
 			path = EjercisiosEnSwiftUIUITests;
 			sourceTree = "<group>";
 		};
-		FB5D5AFE25CB529B0027CB4F /* New Group */ = {
+		FB5D5AFE25CB529B0027CB4F /* Ejercicio1 */ = {
 			isa = PBXGroup;
 			children = (
 				FB5D5B0725CB53980027CB4F /* Pantalla1View.swift */,
 				FB5D5B0C25CB53CD0027CB4F /* Pantalla2View.swift */,
 			);
-			path = "New Group";
+			path = Ejercicio1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
