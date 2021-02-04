@@ -28,6 +28,7 @@ struct Pantalla1View: View {
                 Spacer()
         
                NavigationLink("Continuar", destination: Pantalla2View())
+                .navigationTitle("TITLE")
                 .foregroundColor(Color.blue)
                 .font(.largeTitle)
             }
