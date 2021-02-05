@@ -7,9 +7,16 @@
 
 import SwiftUI
 
-struct CircleHuman2View: View {
+struct Pantalla7View: View {
     var body: some View {
-        ZStack{
+        VStack {
+            imagenCircular()
+            buttonWelcome()
+        }
+    }
+    
+    func imagenCircular() -> some View {
+        return ZStack{
             VStack {
                 Text("BODY HUMAN")
                     .font(.body)
@@ -19,45 +26,32 @@ struct CircleHuman2View: View {
                     .resizable()
                     .frame(width: 210.0, height: 250.0, alignment: .center)
                     .clipShape(Circle())
+                
             }
         }
-        
     }
-}
-
-struct Welcome2View: View{
-    var body: some View {
-        ZStack{
-            VStack {
-                Button(action: {
-                        print("WELCOMEEE!!!")}){
-                    HStack{
-                        Text("WELCOME")
+        func buttonWelcome() -> some View {
+            return ZStack{
+                VStack {
+                    Button(action: {
+                            print("WELCOMEEE!!!")}){
+                        HStack{
+                            Text("WELCOME")
+                        }
+                        .foregroundColor(Color.black)
+                        .padding(30.0)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 20.0)
+                                .stroke(lineWidth: 3.0))
                     }
                     .foregroundColor(Color.black)
-                    .padding(30.0)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 20.0)
-                            .stroke(lineWidth: 3.0))
+                    Spacer()
                 }
-                .foregroundColor(Color.black)
-                Spacer()
             }
         }
-    }
 }
-
-struct Pantalla7View: View {
-    var body: some View {
-        VStack {
-            CircleHuman2View()
-            Welcome2View()
+        struct Pantalla7View_Previews: PreviewProvider {
+            static var previews: some View {
+                Pantalla7View()
+            }
         }
-    }
-}
-
-struct Pantalla7View_Previews: PreviewProvider {
-    static var previews: some View {
-        Pantalla7View()
-    }
-}
