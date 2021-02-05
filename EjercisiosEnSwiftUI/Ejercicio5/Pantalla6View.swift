@@ -10,7 +10,6 @@ import SwiftUI
 struct CircleHumanView: View {
     var body: some View {
         ZStack{
-            Color.blue
             VStack {
                 Text("BODY HUMAN")
                     .font(.body)
@@ -29,13 +28,12 @@ struct CircleHumanView: View {
 struct WelcomeView: View{
     var body: some View {
         ZStack{
-            Color.green
             VStack {
                 Spacer()
                 Button(action: {
                         print("WELCOMEEE!!!")}){
                     HStack{
-                        Text("WELCOME->")
+                        Text("WELCOME")
                     }
                     .foregroundColor(Color.black)
                     .padding(30.0)
@@ -44,6 +42,7 @@ struct WelcomeView: View{
                             .stroke(lineWidth: 3.0))
                 }
                 .foregroundColor(Color.black)
+                Spacer()
             }
         }
     }
@@ -51,8 +50,10 @@ struct WelcomeView: View{
 
 struct Pantalla6View: View {
     var body: some View {
+        VStack{
         CircleHumanView()
         WelcomeView()
+        }
     }
 }
 
