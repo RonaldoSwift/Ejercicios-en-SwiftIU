@@ -11,6 +11,7 @@ struct Pantalla7View: View {
     var body: some View {
         VStack {
             crearImagenCircular()
+            Spacer()
             crearButtonWelcome()
         }
     }
