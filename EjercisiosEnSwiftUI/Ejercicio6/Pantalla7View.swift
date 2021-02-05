@@ -26,7 +26,8 @@ struct Pantalla7View: View {
                     .resizable()
                     .frame(width: 210.0, height: 250.0, alignment: .center)
                     .clipShape(Circle())
-                
+                    .overlay(Circle().stroke(Color.black, lineWidth: 6))
+                    .shadow(color: .blue, radius: 20, x: 1, y: 1)
             }
         }
     }
