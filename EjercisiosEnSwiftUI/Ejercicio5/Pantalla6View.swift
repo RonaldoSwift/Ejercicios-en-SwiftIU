@@ -29,7 +29,6 @@ struct WelcomeView: View{
     var body: some View {
         ZStack{
             VStack {
-                Spacer()
                 Button(action: {
                         print("WELCOMEEE!!!")}){
                     HStack{
@@ -51,8 +50,8 @@ struct WelcomeView: View{
 struct Pantalla6View: View {
     var body: some View {
         VStack{
-        CircleHumanView()
-        WelcomeView()
+            CircleHumanView()
+            WelcomeView()
         }
     }
 }
