@@ -10,12 +10,12 @@ import SwiftUI
 struct Pantalla7View: View {
     var body: some View {
         VStack {
-            imagenCircular()
-            buttonWelcome()
+            crearImagenCircular()
+            crearButtonWelcome()
         }
     }
     
-    func imagenCircular() -> some View {
+    func crearImagenCircular() -> some View {
         return ZStack{
             VStack {
                 Text("BODY HUMAN")
@@ -30,28 +30,29 @@ struct Pantalla7View: View {
             }
         }
     }
-        func buttonWelcome() -> some View {
-            return ZStack{
-                VStack {
-                    Button(action: {
-                            print("WELCOMEEE!!!")}){
-                        HStack{
-                            Text("WELCOME")
-                        }
-                        .foregroundColor(Color.black)
-                        .padding(30.0)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 20.0)
-                                .stroke(lineWidth: 3.0))
+    func crearButtonWelcome() -> some View {
+        return ZStack{
+            VStack {
+                Button(action: {
+                        print("WELCOMEEE!!!")}){
+                    HStack{
+                        Text("WELCOME")
                     }
                     .foregroundColor(Color.black)
-                    Spacer()
+                    .padding(30.0)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 20.0)
+                            .stroke(lineWidth: 3.0))
                 }
+                .foregroundColor(Color.black)
+                Spacer()
             }
         }
+    }
 }
-        struct Pantalla7View_Previews: PreviewProvider {
-            static var previews: some View {
-                Pantalla7View()
-            }
-        }
+
+struct Pantalla7View_Previews: PreviewProvider {
+    static var previews: some View {
+        Pantalla7View()
+    }
+}
