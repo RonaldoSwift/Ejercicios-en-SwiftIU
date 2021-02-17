@@ -22,6 +22,7 @@
 		FB5D5B3925CC9FC20027CB4F /* Pantalla5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B3825CC9FC20027CB4F /* Pantalla5View.swift */; };
 		FB5D5B5A25CDA3A50027CB4F /* Pantalla6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B5925CDA3A50027CB4F /* Pantalla6View.swift */; };
 		FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B6825CDB71D0027CB4F /* Pantalla7View.swift */; };
+		FBD1054625DD718100EC3EA6 /* Pantalla8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1054525DD718100EC3EA6 /* Pantalla8View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		FB5D5B3825CC9FC20027CB4F /* Pantalla5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla5View.swift; sourceTree = "<group>"; };
 		FB5D5B5925CDA3A50027CB4F /* Pantalla6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla6View.swift; sourceTree = "<group>"; };
 		FB5D5B6825CDB71D0027CB4F /* Pantalla7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla7View.swift; sourceTree = "<group>"; };
+		FBD1054525DD718100EC3EA6 /* Pantalla8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla8View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FBD1054425DD714C00EC3EA6 /* Ejercicio7 */,
 				FB5D5B6725CDB6FB0027CB4F /* Ejercicio6 */,
 				FB5D5B5825CDA3850027CB4F /* Ejercicio5 */,
 				FB5D5B3725CC9EE50027CB4F /* Ejercicio4 */,
@@ -203,6 +206,14 @@
 				FB5D5B6825CDB71D0027CB4F /* Pantalla7View.swift */,
 			);
 			path = Ejercicio6;
+			sourceTree = "<group>";
+		};
+		FBD1054425DD714C00EC3EA6 /* Ejercicio7 */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1054525DD718100EC3EA6 /* Pantalla8View.swift */,
+			);
+			path = Ejercicio7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +351,7 @@
 				FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */,
 				FB5D5B2D25CC645D0027CB4F /* Pantalla4View.swift in Sources */,
 				FB5D598F25C45A2C0027CB4F /* EjercisiosEnSwiftUI.xcdatamodeld in Sources */,
+				FBD1054625DD718100EC3EA6 /* Pantalla8View.swift in Sources */,
 				FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */,
 				FB5D598C25C45A2C0027CB4F /* Persistence.swift in Sources */,
 				FB5D5B3925CC9FC20027CB4F /* Pantalla5View.swift in Sources */,
