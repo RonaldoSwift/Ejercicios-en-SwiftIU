@@ -25,7 +25,7 @@ struct CircleHumanView: View {
     }
 }
 
-struct WelcomeView: View{
+private struct WelcomeView: View{
     var body: some View {
         ZStack{
             VStack {
