@@ -35,7 +35,7 @@ struct Pantalla8View: View {
                     
                 }
             }
-            .padding(.bottom, 150)
+            .padding(10)
         }
     }
 }
