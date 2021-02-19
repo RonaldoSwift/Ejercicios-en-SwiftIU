@@ -7,79 +7,42 @@
 
 import SwiftUI
 
+
 struct Pantalla10View: View {
+    
     var body: some View {
-        VStack{
-            Charmander()
-            Bulbasaur()
-            Pikachu()
-            Squirtle()
+        NavigationView{
+            List{
+                NavigationLink("Charmander", destination: Pokemon(imagen: "Charmander", poder: "Fire", color: Color.red))
+                NavigationLink("Bulbasaur", destination:Pokemon(imagen: "Bulbasaur", poder: "Grass", color: Color.green))
+                NavigationLink("Pikachu", destination:Pokemon(imagen: "Pikachu", poder: "Electric", color: Color.yellow))
+                NavigationLink("Squirtle", destination:Pokemon(imagen: "Squirtle", poder: "Water", color: Color.blue))
+            }.navigationBarTitle(
+                Text("Pokemon"), displayMode: .inline)
         }
     }
 }
-struct Charmander: View {
+
+
+struct Pokemon: View{
+    var imagen: String = ""
+    var poder: String = ""
+    var color: Color = Color.black
     var body: some View {
         VStack{
-            Image("Charmander")
+            Image(imagen)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .clipped()
                 .frame(width: 200, height: 200, alignment: .center)
                 .padding(.bottom, 20)
-            Text("Fire")
-                .foregroundColor(Color.red)
+            Text(poder)
+                .foregroundColor(color)
             Spacer()
-        }.navigationBarTitle("Charmander", displayMode: .inline)
+        }.navigationBarTitle(imagen, displayMode: .inline)
     }
 }
 
-struct Bulbasaur: View {
-    var body: some View {
-        VStack{
-            Image("Bulbasaur")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 150, height: 150, alignment: .center)
-                .clipped()
-                .padding(.bottom, 20)
-            Text("Grass")
-                .foregroundColor(Color.green)
-            Spacer()
-        }.navigationBarTitle("Bulbasaur", displayMode: .inline)
-    }
-}
-
-struct Pikachu: View {
-    var body: some View{
-        VStack{
-            Image("Pikachu")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 200, height: 200, alignment: .center)
-                .clipped()
-                .padding(.bottom, 20)
-            Text("Electric")
-                .foregroundColor(Color.yellow)
-            Spacer()
-        }.navigationBarTitle("Pikachu", displayMode: .inline)
-    }
-}
-
-struct Squirtle: View {
-    var body: some View{
-        VStack{
-        Image("Squirtle")
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(width: 200, height: 200, alignment: .center)
-            .clipped()
-            .padding(.bottom, 20)
-        Text("Water")
-            .foregroundColor(Color.blue)
-        Spacer()
-        }.navigationBarTitle("Squirtle", displayMode: .inline)
-    }
-}
 
 struct Pantalla10View_Previews: PreviewProvider {
     static var previews: some View {

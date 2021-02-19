@@ -11,15 +11,7 @@ import CoreData
 struct ContentView: View {
     @State var showDetails = true
     var body: some View {
-        NavigationView{
-            List{
-                NavigationLink("Charmander", destination: Charmander())
-                NavigationLink("Bulbasaur", destination:Bulbasaur())
-                NavigationLink("Pikachu", destination:Pikachu())
-                NavigationLink("Squirtle", destination:Squirtle())
-            }.navigationBarTitle(
-                Text("Pokemon"), displayMode: .inline)
-        }
+       Pantalla10View()
     }
 }
 struct ContentView_Previews: PreviewProvider {
