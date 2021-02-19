@@ -29,7 +29,7 @@ struct Pokemon: View{
     var poder: String = ""
     var color: Color = Color.black
     var body: some View {
-        VStack{
+        VStack(alignment: .center){
             Image(imagen)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
@@ -38,7 +38,6 @@ struct Pokemon: View{
                 .padding(.bottom, 20)
             Text(poder)
                 .foregroundColor(color)
-            Spacer()
         }.navigationBarTitle(imagen, displayMode: .inline)
     }
 }
