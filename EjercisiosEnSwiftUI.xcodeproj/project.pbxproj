@@ -24,6 +24,7 @@
 		FB5D5B5A25CDA3A50027CB4F /* Pantalla6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B5925CDA3A50027CB4F /* Pantalla6View.swift */; };
 		FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B6825CDB71D0027CB4F /* Pantalla7View.swift */; };
 		FBD1054625DD718100EC3EA6 /* Pantalla8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1054525DD718100EC3EA6 /* Pantalla8View.swift */; };
+		FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		FB5D5B5925CDA3A50027CB4F /* Pantalla6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla6View.swift; sourceTree = "<group>"; };
 		FB5D5B6825CDB71D0027CB4F /* Pantalla7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla7View.swift; sourceTree = "<group>"; };
 		FBD1054525DD718100EC3EA6 /* Pantalla8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla8View.swift; sourceTree = "<group>"; };
+		FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla10View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FBEBDF7C25DF356500AEF688 /* Ejercicio9 */,
 				FB3D6CA725DDDBD100F88464 /* Ejercicio8 */,
 				FBD1054425DD714C00EC3EA6 /* Ejercicio7 */,
 				FB5D5B6725CDB6FB0027CB4F /* Ejercicio6 */,
@@ -225,6 +228,14 @@
 				FBD1054525DD718100EC3EA6 /* Pantalla8View.swift */,
 			);
 			path = Ejercicio7;
+			sourceTree = "<group>";
+		};
+		FBEBDF7C25DF356500AEF688 /* Ejercicio9 */ = {
+			isa = PBXGroup;
+			children = (
+				FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */,
+			);
+			path = Ejercicio9;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +373,7 @@
 				FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */,
 				FB5D5B2D25CC645D0027CB4F /* Pantalla4View.swift in Sources */,
 				FB3D6CA925DDDC0700F88464 /* Pantalla9View.swift in Sources */,
+				FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */,
 				FB5D598F25C45A2C0027CB4F /* EjercisiosEnSwiftUI.xcdatamodeld in Sources */,
 				FBD1054625DD718100EC3EA6 /* Pantalla8View.swift in Sources */,
 				FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */,

@@ -9,13 +9,17 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @State var showDetails = true
     var body: some View {
         NavigationView{
             List{
-                NavigationLink("Full Screen", destination: Pantalla9View())
-                NavigationLink("Embed", destination:LoginEmbedView())
-            }
-        }.navigationBarTitle("Login Option", displayMode: .inline)
+                NavigationLink("Charmander", destination: Charmander())
+                NavigationLink("Bulbasaur", destination:Bulbasaur())
+                NavigationLink("Pikachu", destination:Pikachu())
+                NavigationLink("Squirtle", destination:Squirtle())
+            }.navigationBarTitle(
+                Text("Pokemon"), displayMode: .inline)
+        }
     }
 }
 struct ContentView_Previews: PreviewProvider {
