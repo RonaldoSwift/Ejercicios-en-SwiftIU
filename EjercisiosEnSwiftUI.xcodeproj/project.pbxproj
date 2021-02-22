@@ -23,6 +23,7 @@
 		FB5D5B3925CC9FC20027CB4F /* Pantalla5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B3825CC9FC20027CB4F /* Pantalla5View.swift */; };
 		FB5D5B5A25CDA3A50027CB4F /* Pantalla6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B5925CDA3A50027CB4F /* Pantalla6View.swift */; };
 		FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5B6825CDB71D0027CB4F /* Pantalla7View.swift */; };
+		FB920D4C25E06CD300998009 /* SS-34View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB920D4B25E06CD300998009 /* SS-34View.swift */; };
 		FBD1054625DD718100EC3EA6 /* Pantalla8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1054525DD718100EC3EA6 /* Pantalla8View.swift */; };
 		FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		FB5D5B3825CC9FC20027CB4F /* Pantalla5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla5View.swift; sourceTree = "<group>"; };
 		FB5D5B5925CDA3A50027CB4F /* Pantalla6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla6View.swift; sourceTree = "<group>"; };
 		FB5D5B6825CDB71D0027CB4F /* Pantalla7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla7View.swift; sourceTree = "<group>"; };
+		FB920D4B25E06CD300998009 /* SS-34View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-34View.swift"; sourceTree = "<group>"; };
 		FBD1054525DD718100EC3EA6 /* Pantalla8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla8View.swift; sourceTree = "<group>"; };
 		FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla10View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FB920D4A25E06CAB00998009 /* SS-34 */,
 				FBEBDF7C25DF356500AEF688 /* Ejercicio9 */,
 				FB3D6CA725DDDBD100F88464 /* Ejercicio8 */,
 				FBD1054425DD714C00EC3EA6 /* Ejercicio7 */,
@@ -220,6 +223,14 @@
 				FB5D5B6825CDB71D0027CB4F /* Pantalla7View.swift */,
 			);
 			path = Ejercicio6;
+			sourceTree = "<group>";
+		};
+		FB920D4A25E06CAB00998009 /* SS-34 */ = {
+			isa = PBXGroup;
+			children = (
+				FB920D4B25E06CD300998009 /* SS-34View.swift */,
+			);
+			path = "SS-34";
 			sourceTree = "<group>";
 		};
 		FBD1054425DD714C00EC3EA6 /* Ejercicio7 */ = {
@@ -376,6 +387,7 @@
 				FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */,
 				FB5D598F25C45A2C0027CB4F /* EjercisiosEnSwiftUI.xcdatamodeld in Sources */,
 				FBD1054625DD718100EC3EA6 /* Pantalla8View.swift in Sources */,
+				FB920D4C25E06CD300998009 /* SS-34View.swift in Sources */,
 				FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */,
 				FB5D598C25C45A2C0027CB4F /* Persistence.swift in Sources */,
 				FB5D5B3925CC9FC20027CB4F /* Pantalla5View.swift in Sources */,
