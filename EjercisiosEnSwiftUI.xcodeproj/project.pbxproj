@@ -396,6 +396,7 @@
 				FB920DC425E7F0A300998009 /* SS-36View.swift in Sources */,
 				FB920DCC25E7F0D700998009 /* SS-36(2)View.swift in Sources */,
 				FB5D5B0D25CB53CD0027CB4F /* Pantalla2View.swift in Sources */,
+				FB920D9725E6A22E00998009 /* SS-37View.swift in Sources */,
 				FB5D5B0825CB53980027CB4F /* Pantalla1View.swift in Sources */,
 				FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */,
 				FB5D5B2D25CC645D0027CB4F /* Pantalla4View.swift in Sources */,
