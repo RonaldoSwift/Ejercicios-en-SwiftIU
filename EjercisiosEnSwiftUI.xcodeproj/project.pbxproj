@@ -390,10 +390,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5D5B5A25CDA3A50027CB4F /* Pantalla6View.swift in Sources */,
+				FB920DC425E7F0A300998009 /* SS-36View.swift in Sources */,
+				FB920DCC25E7F0D700998009 /* SS-36(2)View.swift in Sources */,
 				FB5D5B0D25CB53CD0027CB4F /* Pantalla2View.swift in Sources */,
+				FB920D9725E6A22E00998009 /* SS-37View.swift in Sources */,
 				FB5D5B0825CB53980027CB4F /* Pantalla1View.swift in Sources */,
 				FB920D5825E42C1D00998009 /* SS-38View.swift in Sources */,
 				FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */,
+				FB920D6125E4622700998009 /* SS-39View.swift in Sources */,
 				FB5D5B2D25CC645D0027CB4F /* Pantalla4View.swift in Sources */,
 				FB3D6CA925DDDC0700F88464 /* Pantalla9View.swift in Sources */,
 				FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */,
