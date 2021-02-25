@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SS_40View: View {
-    var componentes: [TextGrupo] = [
+    var textGrupos: [TextGrupo] = [
         TextGrupo(id: 0, nombre: "A HA", imagen: "a-ha"),
         TextGrupo(id: 1, nombre: "Grupo Naranja", imagen: "Grupo-Naranja"),
         TextGrupo(id: 2, nombre: "The Outfield", imagen: "The-Outfield")]
@@ -16,9 +16,9 @@ struct SS_40View: View {
     var body: some View {
         NavigationView{
             List{
-                ForEach(componentes, id: \.id){ componente in
-                    NavigationLink(destination: SS_40_2_View(grupo: TextGrupo(id: componente.id, nombre: componente.nombre, imagen: componente.imagen))) {
-                        implementar(componente: TextGrupo(id: 0, nombre: componente.nombre, imagen: componente.imagen))
+                ForEach(textGrupos, id: \.id){ textGrupo in
+                    NavigationLink(destination: SS_40_2_View(grupo:textGrupo)) {
+                        implementar(componente: textGrupo)
                     }
                 }
             }.navigationBarTitle("SwiftUI Team")
