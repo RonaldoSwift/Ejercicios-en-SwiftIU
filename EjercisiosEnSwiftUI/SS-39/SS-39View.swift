@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SS_39View: View {
-    var users: [User] = [
+    var users: [Usuario] = [
         .init(id: 0, title: "Juan", value: "Ingeniero", imageName: "Hombre-Lentes"),
         .init(id: 1, title: "Maria", value: "Economista", imageName: "Mujer"),
         .init(id: 2, title: "Sandra", value: "Diseñadora", imageName: "Mujer2"),
@@ -33,7 +33,7 @@ struct SS_39View: View {
     }
 }
 
-struct User: Identifiable {
+struct Usuario: Identifiable {
     var id: Int
     let title: String
     let value: String
