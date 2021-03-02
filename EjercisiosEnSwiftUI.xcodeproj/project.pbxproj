@@ -451,11 +451,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5D5B5A25CDA3A50027CB4F /* Pantalla6View.swift in Sources */,
+				FB20E71F25EC9D6A00EC02AC /* SS-42View.swift in Sources */,
 				FB20E6E425E8097E00EC02AC /* SS-36(2)View.swift in Sources */,
 				FB5D5B0D25CB53CD0027CB4F /* Pantalla2View.swift in Sources */,
 				FB20E6E325E8097E00EC02AC /* SS-36View.swift in Sources */,
 				FB5D5B0825CB53980027CB4F /* Pantalla1View.swift in Sources */,
 				FB920D5825E42C1D00998009 /* SS-38View.swift in Sources */,
+				FB20E71325E9A45000EC02AC /* SS-44View.swift in Sources */,
 				FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */,
 				FB5D5B2D25CC645D0027CB4F /* Pantalla4View.swift in Sources */,
 				FB20E6F625E80A1900EC02AC /* SS-40View.swift in Sources */,
@@ -468,6 +470,7 @@
 				FB20E6F025E809BE00EC02AC /* SS-39View.swift in Sources */,
 				FB920D4C25E06CD300998009 /* SS-34View.swift in Sources */,
 				FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */,
+				FB20E70725E8526400EC02AC /* SS-35View.swift in Sources */,
 				FB5D598C25C45A2C0027CB4F /* Persistence.swift in Sources */,
 				FB20E6EA25E809B200EC02AC /* SS-37View.swift in Sources */,
 				FB5D5B3925CC9FC20027CB4F /* Pantalla5View.swift in Sources */,
