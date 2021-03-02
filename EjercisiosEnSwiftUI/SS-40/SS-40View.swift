@@ -15,7 +15,7 @@ struct SS_40View: View {
     
     var body: some View {
         NavigationView{
-            List{
+            List {
                 ForEach(textGrupos, id: \.id){ textGrupo in
                     NavigationLink(destination: SS_40_2_View(grupo:textGrupo)) {
                         implementar(componente: textGrupo)
