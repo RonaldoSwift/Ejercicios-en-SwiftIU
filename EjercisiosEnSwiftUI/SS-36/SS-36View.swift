@@ -25,7 +25,7 @@ struct SS_36View: View {
     
     var body: some View {
         NavigationView{
-            List{
+            List {
                 ForEach(emojis, id: \.id){ emoji in
                     NavigationLink(
                         destination: SS_36_2_View(emoji: emoji),
