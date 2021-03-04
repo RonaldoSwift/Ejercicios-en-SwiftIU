@@ -29,38 +29,35 @@ struct SS_53View: View {
                                 .font(.title)
                                 .bold()
                                 .foregroundColor(Color .white)
-                                .background(Color.green)
-
+                            
                             Text(tarjeta.descripcion)
                                 .font(.title2)
                                 .foregroundColor(Color .white)
-                                .background(Color.orange)
                             
                             HStack{
-                            Text(tarjeta.fecha)
-                                .font(.title3)
-                                .foregroundColor(Color .white)
-                                .background(Color.purple)
-                            
-                            Text(tarjeta.hora)
-                                .font(.title3)
-                                .foregroundColor(Color .white)
-                                .background(Color.yellow)
-
-                            Image(tarjeta.image)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 120, height: 90, alignment: .center)
-                                .clipShape(Circle())
-                                .overlay(Circle().stroke(Color.black, lineWidth: 6))
-                                .background(Color.red)
+                                Text(tarjeta.fecha)
+                                    .font(.title3)
+                                    .foregroundColor(Color .white)
+                                
+                                Text(tarjeta.hora)
+                                    .font(.title3)
+                                    .foregroundColor(Color .white)
+                                
+                                Image(tarjeta.image)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 120, height: 100, alignment: .center)
+                                    .clipShape(Circle())
+                                    .overlay(Circle().stroke(Color.black, lineWidth: 6))
                             }
+                            
                         }.padding(20)
                         .foregroundColor(Color.white)
                         .background(Color.blue)
                         .cornerRadius(25)
                     }
                 }
+                
             }.padding(10)
     }
 }
