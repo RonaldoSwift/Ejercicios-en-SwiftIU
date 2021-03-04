@@ -463,6 +463,7 @@
 			files = (
 				FB5D5B5A25CDA3A50027CB4F /* Pantalla6View.swift in Sources */,
 				FB20E6E425E8097E00EC02AC /* SS-36(2)View.swift in Sources */,
+				FB20E79425F15D8C00EC02AC /* SS-55View.swift in Sources */,
 				FB5D5B0D25CB53CD0027CB4F /* Pantalla2View.swift in Sources */,
 				FB20E6E325E8097E00EC02AC /* SS-36View.swift in Sources */,
 				FB5D5B0825CB53980027CB4F /* Pantalla1View.swift in Sources */,
