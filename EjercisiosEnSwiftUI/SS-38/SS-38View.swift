@@ -12,7 +12,7 @@ struct SS_38View: View {
     
     var row: [Int] = []
     var body: some View {
-        List{
+        List {
             ForEach(1...5, id: \.self){ row in
                 Text("Row \(row)")
             }
