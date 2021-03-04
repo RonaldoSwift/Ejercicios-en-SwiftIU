@@ -14,7 +14,7 @@
 		FB20E6F625E80A1900EC02AC /* SS-40View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20E6F525E80A1900EC02AC /* SS-40View.swift */; };
 		FB20E6FB25E82C2A00EC02AC /* SS-40(2)View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20E6FA25E82C2A00EC02AC /* SS-40(2)View.swift */; };
 		FB20E72825ED48BE00EC02AC /* SS-43View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20E72725ED48BE00EC02AC /* SS-43View.swift */; };
-		FB20E79425F15D8C00EC02AC /* SS-55View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20E79325F15D8C00EC02AC /* SS-55View.swift */; };
+		FB20E78825F14A1300EC02AC /* SS-54View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB20E78725F14A1300EC02AC /* SS-54View.swift */; };
 		FB3D6CA925DDDC0700F88464 /* Pantalla9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D6CA825DDDC0700F88464 /* Pantalla9View.swift */; };
 		FB5D598325C45A230027CB4F /* EjercisiosEnSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D598225C45A230027CB4F /* EjercisiosEnSwiftUIApp.swift */; };
 		FB5D598525C45A230027CB4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D598425C45A230027CB4F /* ContentView.swift */; };
@@ -62,7 +62,7 @@
 		FB20E6F525E80A1900EC02AC /* SS-40View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-40View.swift"; sourceTree = "<group>"; };
 		FB20E6FA25E82C2A00EC02AC /* SS-40(2)View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-40(2)View.swift"; sourceTree = "<group>"; };
 		FB20E72725ED48BE00EC02AC /* SS-43View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-43View.swift"; sourceTree = "<group>"; };
-		FB20E79325F15D8C00EC02AC /* SS-55View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-55View.swift"; sourceTree = "<group>"; };
+		FB20E78725F14A1300EC02AC /* SS-54View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-54View.swift"; sourceTree = "<group>"; };
 		FB3D6CA825DDDC0700F88464 /* Pantalla9View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla9View.swift; sourceTree = "<group>"; };
 		FB5D597F25C45A230027CB4F /* EjercisiosEnSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjercisiosEnSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5D598225C45A230027CB4F /* EjercisiosEnSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercisiosEnSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -158,12 +158,12 @@
 			path = "SS-43";
 			sourceTree = "<group>";
 		};
-		FB20E79225F15D7400EC02AC /* SS-55 */ = {
+		FB20E78625F149E800EC02AC /* SS-54 */ = {
 			isa = PBXGroup;
 			children = (
-				FB20E79325F15D8C00EC02AC /* SS-55View.swift */,
+				FB20E78725F14A1300EC02AC /* SS-54View.swift */,
 			);
-			path = "SS-55";
+			path = "SS-54";
 			sourceTree = "<group>";
 		};
 		FB3D6CA725DDDBD100F88464 /* Ejercicio8 */ = {
@@ -197,7 +197,7 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				FB20E79225F15D7400EC02AC /* SS-55 */,
+				FB20E78625F149E800EC02AC /* SS-54 */,
 				FB20E72625ED489900EC02AC /* SS-43 */,
 				FB20E6F425E809FF00EC02AC /* SS-40 */,
 				FB20E6EE25E809BE00EC02AC /* SS-39 */,
@@ -471,6 +471,7 @@
 				FB5D5B6925CDB71D0027CB4F /* Pantalla7View.swift in Sources */,
 				FB5D5B2D25CC645D0027CB4F /* Pantalla4View.swift in Sources */,
 				FB20E6F625E80A1900EC02AC /* SS-40View.swift in Sources */,
+				FB20E78825F14A1300EC02AC /* SS-54View.swift in Sources */,
 				FB3D6CA925DDDC0700F88464 /* Pantalla9View.swift in Sources */,
 				FB20E6FB25E82C2A00EC02AC /* SS-40(2)View.swift in Sources */,
 				FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */,
