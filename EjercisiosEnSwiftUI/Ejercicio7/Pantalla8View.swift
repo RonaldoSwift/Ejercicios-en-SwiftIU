@@ -69,7 +69,7 @@ struct LoginButtonContent : View {
             .font(.headline)
             .foregroundColor(.white)
             .padding()
-            3
+            
     }
 }
 

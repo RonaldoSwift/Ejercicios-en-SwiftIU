@@ -6,97 +6,118 @@
 //
 
 import SwiftUI
+let llightGreyColor = Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0)
 
 struct SS_56View: View {
     var servicios: [Servicio] = [
-        Servicio(id: 0, nombre: "All"),
-        Servicio(id: 1, nombre: "Overview"),
-        Servicio(id: 2, nombre: "Hotels"),
-        Servicio(id: 3, nombre: "Food"),
-        Servicio(id: 4, nombre: "Me"),
-        Servicio(id: 5, nombre: "House")]
+        Servicio(id: 0, nombre: "All", color: Color.black),
+        Servicio(id: 1, nombre: "Overview", color: Color.black),
+        Servicio(id: 2, nombre: "Hotels", color: Color.black),
+        Servicio(id: 3, nombre: "Food", color: Color.black),
+        Servicio(id: 4, nombre: "Me", color: Color.black),
+        Servicio(id: 5, nombre: "House", color: Color.black)]
     
     var body: some View {
         VStack{
-        kdView()
-        scrollesView()
-        informacionView()
+            kdView()
+            scrollesView()
+            informacionView()
         }
     }
     
-    func kdView() -> some View{
+    func kdView() -> some View{ 
         return ZStack{
             Image("PIC")
                 .resizable()
-                .scaledToFit()
             VStack(alignment: .leading){
-                Button(action: {}, label: {
-                    Image(systemName: "arrowshape.turn.up.left")
-                        .foregroundColor(Color.black)
-                        .padding(1)
-                    Text("Back")
-                        .foregroundColor(Color.black)
-                        .frame(width: 40, height: 100)
-                })
-                .font(.headline)
-                .padding()
-                .frame(width: 100, height: 60)
-                .background(Color.white)
-                .cornerRadius(20.0)
-                Text("Travel in West Asia")
-                    .font(.title)
-                    .bold()
-                    .foregroundColor(Color.white)
-                Text("My trip to China in Beijin, where I stayed in a beatifull hotel called")
-                    .font(.title2)
-                    .foregroundColor(Color.white)
-                    .truncationMode(.tail)
-                    .lineLimit(2)
+                buttonBackView()
+                Spacer()
                 HStack{
-                    
-                    Image("Mujer")
-                        .resizable()
-                        .frame(width: 30, height: 30, alignment: .leading)
-                        .clipShape(Circle())
-                        .overlay(Circle().stroke(Color.black, lineWidth: 2.0))
-                    
-                    Text("Leslie Alexander")
-                        .foregroundColor(Color.white)
-                        .bold()
-                        .font(.headline)
-                        .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 100))
-                    Button(action: { print("<3")}, label: {
-                        Image(systemName: "heart.circle.fill")
-                            .font(.headline)
-                            .padding()
-                            .frame(width: 100, height: 60)
-                            .background(Color.white)
-                            .clipShape(Circle())
-                    })
+                    userView()
+                    VStack{
+                        Spacer()
+                        heartButton()
+                    }
                 }
+                .frame(height: 150)
+                .padding()
             }
-            .padding(13)
+        }
+        .frame(height: 400)
+    }
+    
+    func buttonBackView() -> some View{
+        return Button(action: {print("Atras")}, label: {
+            Image("ArrowLeft")
+                .resizable()
+                .frame(width: 24, height: 24, alignment: .center)
+            Text("Back")
+                .foregroundColor(Color.black)
+                .frame(width: 40, height: 100)
+        })
+        .font(.headline)
+        .padding()
+        .frame(width: 100, height: 60)
+        .background(Color.white)
+        .cornerRadius(20.0)
+        .padding(13)
+    }
+    func userView() -> some View{
+        return  VStack(alignment: .leading){
+            Text("Travel in West Asia")
+                .font(.title)
+                .bold()
+                .foregroundColor(Color.white)
+            Text("My trip to China in Beijin, where I stayed in a beatifull hotel called")
+                .font(.title2)
+                .foregroundColor(Color.white)
+                .truncationMode(.tail)
+                .lineLimit(2)
+            HStack{
+                
+                Image("Mujer")
+                    .resizable()
+                    .frame(width: 30, height: 30, alignment: .leading)
+                    .clipShape(Circle())
+                
+                Text("Leslie Alexander")
+                    .foregroundColor(Color.white)
+                    .bold()
+                    .font(.headline)
+                    .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 100))
+            }
+            
         }
     }
+    func heartButton() -> some View{
+        return Button(action: { print("<3")}, label: {
+            Image("Heart")
+                .resizable()
+                .font(.headline)
+                .padding()
+                .frame(width: 60, height: 60)
+                .background(Color.white)
+                .cornerRadius(20.0)
+        })
+    }
+    
     
     func scrollesView() -> some View {
         return
             ScrollView(.horizontal, showsIndicators: false, content: {
                 HStack{
                     ForEach(servicios, id: \.id){ servicio in
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        Button(action: {}, label: {
                             Text(servicio.nombre)
-                                .font(.title)
-                                .foregroundColor(Color.black)
                                 .padding()
-                                .frame(width: 150, height: 50)
+                                .foregroundColor(servicio.color)
+                                .background(llightGreyColor)
+                                .cornerRadius(.infinity)
                                 .background(Color.white)
-                                .cornerRadius(20.0)
                                 .overlay(RoundedRectangle(cornerRadius: 15.0)
-                                            .stroke(lineWidth: 3.0))
+                                            .stroke(lineWidth: 2.0))
+                            
                         })
-                        
-                        
                     }
                 }
             })
@@ -115,7 +136,7 @@ struct SS_56View: View {
             HStack{
                 Image(systemName: "mappin")
                 Text("China")
-    
+                
                 Image(systemName: "heart.fill")
                 Text("2200 likes")
                 
@@ -131,6 +152,7 @@ struct SS_56View: View {
 struct Servicio: Identifiable{
     var id: Int
     var nombre: String
+    var color: Color
 }
 
 struct SS_56View_Previews: PreviewProvider {
