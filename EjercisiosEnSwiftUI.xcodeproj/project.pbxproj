@@ -37,6 +37,7 @@
 		FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */; };
 		FBFD9A6125F5B9F4006DFF39 /* SS-44View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9A6025F5B9F4006DFF39 /* SS-44View.swift */; };
 		FBFD9A6725F5BC05006DFF39 /* SS-53View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9A6625F5BC05006DFF39 /* SS-53View.swift */; };
+		FBFD9A8125F67DE9006DFF39 /* SS-57View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9A8025F67DE9006DFF39 /* SS-57View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla10View.swift; sourceTree = "<group>"; };
 		FBFD9A6025F5B9F4006DFF39 /* SS-44View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SS-44View.swift"; sourceTree = "<group>"; };
 		FBFD9A6625F5BC05006DFF39 /* SS-53View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-53View.swift"; sourceTree = "<group>"; };
+		FBFD9A8025F67DE9006DFF39 /* SS-57View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-57View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FBFD9A7F25F67DCB006DFF39 /* SS-57 */,
 				FBFD9A6525F5BAC9006DFF39 /* SS-53 */,
 				FBFD9A5F25F5B9F4006DFF39 /* SS-44 */,
 				FB20E78625F149E800EC02AC /* SS-54 */,
@@ -354,6 +357,14 @@
 			path = "SS-53";
 			sourceTree = "<group>";
 		};
+		FBFD9A7F25F67DCB006DFF39 /* SS-57 */ = {
+			isa = PBXGroup;
+			children = (
+				FBFD9A8025F67DE9006DFF39 /* SS-57View.swift */,
+			);
+			path = "SS-57";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -485,6 +496,7 @@
 			files = (
 				FB5D5B5A25CDA3A50027CB4F /* Pantalla6View.swift in Sources */,
 				FB20E6E425E8097E00EC02AC /* SS-36(2)View.swift in Sources */,
+				FBFD9A8125F67DE9006DFF39 /* SS-57View.swift in Sources */,
 				FB5D5B0D25CB53CD0027CB4F /* Pantalla2View.swift in Sources */,
 				FB20E6E325E8097E00EC02AC /* SS-36View.swift in Sources */,
 				FBFD9A6125F5B9F4006DFF39 /* SS-44View.swift in Sources */,
