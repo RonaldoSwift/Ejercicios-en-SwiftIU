@@ -336,20 +336,21 @@
 			path = Ejercicio9;
 			sourceTree = "<group>";
 		};
-		FBFD9A5F25F5B9F4006DFF39 /* SS-44 */ = {
+		FBFD9ACD25F6EFA8006DFF39 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				FBFD9A6025F5B9F4006DFF39 /* SS-44View.swift */,
-			);
-			path = "SS-44";
-			sourceTree = "<group>";
-		};
-		FBFD9A6525F5BAC9006DFF39 /* SS-53 */ = {
-			isa = PBXGroup;
-			children = (
 				FBFD9A6625F5BC05006DFF39 /* SS-53View.swift */,
 			);
-			path = "SS-53";
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		FBFD9AD125F7C319006DFF39 /* SS-60 */ = {
+			isa = PBXGroup;
+			children = (
+				FBFD9AD225F7C339006DFF39 /* SS-60View.swift */,
+			);
+			path = "SS-60";
 			sourceTree = "<group>";
 		};
 		FBFD9A7F25F67DCB006DFF39 /* SS-57 */ = {
@@ -523,14 +524,17 @@
 				FB20E72825ED48BE00EC02AC /* SS-43View.swift in Sources */,
 				FB5D598F25C45A2C0027CB4F /* EjercisiosEnSwiftUI.xcdatamodeld in Sources */,
 				FBD1054625DD718100EC3EA6 /* Pantalla8View.swift in Sources */,
+				FBFD9AC625F6D0B3006DFF39 /* SS-59View.swift in Sources */,
 				FB20E6F025E809BE00EC02AC /* SS-39View.swift in Sources */,
 				FBFD9AF425F7E19F006DFF39 /* SS-61View.swift in Sources */,
 				FB920D4C25E06CD300998009 /* SS-34View.swift in Sources */,
 				FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */,
 				FB5D598C25C45A2C0027CB4F /* Persistence.swift in Sources */,
 				FB20E6EA25E809B200EC02AC /* SS-37View.swift in Sources */,
+				FBFD9AB925F6B2CE006DFF39 /* SS-58View.swift in Sources */,
 				FBFD9A6725F5BC05006DFF39 /* SS-53View.swift in Sources */,
 				FB5D5B3925CC9FC20027CB4F /* Pantalla5View.swift in Sources */,
+				FBFD9AD325F7C339006DFF39 /* SS-60View.swift in Sources */,
 				FB5D598525C45A230027CB4F /* ContentView.swift in Sources */,
 				FB5D598325C45A230027CB4F /* EjercisiosEnSwiftUIApp.swift in Sources */,
 			);
