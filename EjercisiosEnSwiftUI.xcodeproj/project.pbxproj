@@ -37,7 +37,7 @@
 		FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */; };
 		FBFD9A6125F5B9F4006DFF39 /* SS-44View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9A6025F5B9F4006DFF39 /* SS-44View.swift */; };
 		FBFD9A6725F5BC05006DFF39 /* SS-53View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9A6625F5BC05006DFF39 /* SS-53View.swift */; };
-		FBFD9AC625F6D0B3006DFF39 /* SS-59View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9AC525F6D0B3006DFF39 /* SS-59View.swift */; };
+		FBFD9AD325F7C339006DFF39 /* SS-60View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9AD225F7C339006DFF39 /* SS-60View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,7 +94,7 @@
 		FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla10View.swift; sourceTree = "<group>"; };
 		FBFD9A6025F5B9F4006DFF39 /* SS-44View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SS-44View.swift"; sourceTree = "<group>"; };
 		FBFD9A6625F5BC05006DFF39 /* SS-53View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-53View.swift"; sourceTree = "<group>"; };
-		FBFD9AC525F6D0B3006DFF39 /* SS-59View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-59View.swift"; sourceTree = "<group>"; };
+		FBFD9AD225F7C339006DFF39 /* SS-60View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-60View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +187,7 @@
 				FB5D599825C45A2D0027CB4F /* EjercisiosEnSwiftUITests */,
 				FB5D59A325C45A2D0027CB4F /* EjercisiosEnSwiftUIUITests */,
 				FB5D598025C45A230027CB4F /* Products */,
-				FBFD9AC025F6D073006DFF39 /* Recovered References */,
+				FBFD9ACD25F6EFA8006DFF39 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,7 +204,7 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				FBFD9AC425F6D093006DFF39 /* SS-59 */,
+				FBFD9AD125F7C319006DFF39 /* SS-60 */,
 				FB20E7B825F1917800EC02AC /* SS-56 */,
 				FB20E72625ED489900EC02AC /* SS-43 */,
 				FB20E6F425E809FF00EC02AC /* SS-40 */,
@@ -340,7 +340,7 @@
 			path = Ejercicio9;
 			sourceTree = "<group>";
 		};
-		FBFD9AC025F6D073006DFF39 /* Recovered References */ = {
+		FBFD9ACD25F6EFA8006DFF39 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				FBFD9A6025F5B9F4006DFF39 /* SS-44View.swift */,
@@ -349,12 +349,12 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		FBFD9AC425F6D093006DFF39 /* SS-59 */ = {
+		FBFD9AD125F7C319006DFF39 /* SS-60 */ = {
 			isa = PBXGroup;
 			children = (
-				FBFD9AC525F6D0B3006DFF39 /* SS-59View.swift */,
+				FBFD9AD225F7C339006DFF39 /* SS-60View.swift */,
 			);
-			path = "SS-59";
+			path = "SS-60";
 			sourceTree = "<group>";
 		};
 		FBFD9A7F25F67DCB006DFF39 /* SS-57 */ = {
@@ -521,6 +521,7 @@
 				FBFD9AB925F6B2CE006DFF39 /* SS-58View.swift in Sources */,
 				FBFD9A6725F5BC05006DFF39 /* SS-53View.swift in Sources */,
 				FB5D5B3925CC9FC20027CB4F /* Pantalla5View.swift in Sources */,
+				FBFD9AD325F7C339006DFF39 /* SS-60View.swift in Sources */,
 				FB5D598525C45A230027CB4F /* ContentView.swift in Sources */,
 				FB5D598325C45A230027CB4F /* EjercisiosEnSwiftUIApp.swift in Sources */,
 			);
