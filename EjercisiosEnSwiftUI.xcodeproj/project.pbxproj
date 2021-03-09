@@ -518,6 +518,7 @@
 				FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */,
 				FB5D598C25C45A2C0027CB4F /* Persistence.swift in Sources */,
 				FB20E6EA25E809B200EC02AC /* SS-37View.swift in Sources */,
+				FBFD9AB925F6B2CE006DFF39 /* SS-58View.swift in Sources */,
 				FBFD9A6725F5BC05006DFF39 /* SS-53View.swift in Sources */,
 				FB5D5B3925CC9FC20027CB4F /* Pantalla5View.swift in Sources */,
 				FB5D598525C45A230027CB4F /* ContentView.swift in Sources */,
