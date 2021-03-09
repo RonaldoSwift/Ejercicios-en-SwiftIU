@@ -13,7 +13,7 @@ struct EjercisiosEnSwiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            SS_56View()
+            SS_57View()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
