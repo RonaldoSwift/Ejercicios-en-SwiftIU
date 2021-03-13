@@ -37,7 +37,8 @@
 		FBEBDF7E25DF358000AEF688 /* Pantalla10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */; };
 		FBFD9A6125F5B9F4006DFF39 /* SS-44View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9A6025F5B9F4006DFF39 /* SS-44View.swift */; };
 		FBFD9A6725F5BC05006DFF39 /* SS-53View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9A6625F5BC05006DFF39 /* SS-53View.swift */; };
-		FBFD9AD325F7C339006DFF39 /* SS-60View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9AD225F7C339006DFF39 /* SS-60View.swift */; };
+		FBFD9A8125F67DE9006DFF39 /* SS-57View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9A8025F67DE9006DFF39 /* SS-57View.swift */; };
+		FBFD9AF425F7E19F006DFF39 /* SS-61View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD9AF325F7E19F006DFF39 /* SS-61View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,7 +95,8 @@
 		FBEBDF7D25DF358000AEF688 /* Pantalla10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla10View.swift; sourceTree = "<group>"; };
 		FBFD9A6025F5B9F4006DFF39 /* SS-44View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SS-44View.swift"; sourceTree = "<group>"; };
 		FBFD9A6625F5BC05006DFF39 /* SS-53View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-53View.swift"; sourceTree = "<group>"; };
-		FBFD9AD225F7C339006DFF39 /* SS-60View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-60View.swift"; sourceTree = "<group>"; };
+		FBFD9A8025F67DE9006DFF39 /* SS-57View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-57View.swift"; sourceTree = "<group>"; };
+		FBFD9AF325F7E19F006DFF39 /* SS-61View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SS-61View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,14 +166,6 @@
 			path = "SS-43";
 			sourceTree = "<group>";
 		};
-		FB20E7B825F1917800EC02AC /* SS-56 */ = {
-			isa = PBXGroup;
-			children = (
-				FB20E7B925F1919C00EC02AC /* SS-56View.swift */,
-			);
-			path = "SS-56";
-			sourceTree = "<group>";
-		};
 		FB3D6CA725DDDBD100F88464 /* Ejercicio8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,7 +181,7 @@
 				FB5D599825C45A2D0027CB4F /* EjercisiosEnSwiftUITests */,
 				FB5D59A325C45A2D0027CB4F /* EjercisiosEnSwiftUIUITests */,
 				FB5D598025C45A230027CB4F /* Products */,
-				FBFD9ACD25F6EFA8006DFF39 /* Recovered References */,
+				FBFD9AEE25F7D29C006DFF39 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,8 +198,10 @@
 		FB5D598125C45A230027CB4F /* EjercisiosEnSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				FBFD9AD125F7C319006DFF39 /* SS-60 */,
-				FB20E7B825F1917800EC02AC /* SS-56 */,
+				FBFD9AF225F7E174006DFF39 /* SS-61 */,
+				FBFD9A7F25F67DCB006DFF39 /* SS-57 */,
+				FBFD9A6525F5BAC9006DFF39 /* SS-53 */,
+				FBFD9A5F25F5B9F4006DFF39 /* SS-44 */,
 				FB20E72625ED489900EC02AC /* SS-43 */,
 				FB20E6F425E809FF00EC02AC /* SS-40 */,
 				FB20E6EE25E809BE00EC02AC /* SS-39 */,
@@ -365,6 +361,22 @@
 			path = "SS-57";
 			sourceTree = "<group>";
 		};
+		FBFD9AEE25F7D29C006DFF39 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				FB20E7B925F1919C00EC02AC /* SS-56View.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		FBFD9AF225F7E174006DFF39 /* SS-61 */ = {
+			isa = PBXGroup;
+			children = (
+				FBFD9AF325F7E19F006DFF39 /* SS-61View.swift */,
+			);
+			path = "SS-61";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -514,6 +526,7 @@
 				FBD1054625DD718100EC3EA6 /* Pantalla8View.swift in Sources */,
 				FBFD9AC625F6D0B3006DFF39 /* SS-59View.swift in Sources */,
 				FB20E6F025E809BE00EC02AC /* SS-39View.swift in Sources */,
+				FBFD9AF425F7E19F006DFF39 /* SS-61View.swift in Sources */,
 				FB920D4C25E06CD300998009 /* SS-34View.swift in Sources */,
 				FB5D5B2125CC4B2C0027CB4F /* Pantalla3View.swift in Sources */,
 				FB5D598C25C45A2C0027CB4F /* Persistence.swift in Sources */,
